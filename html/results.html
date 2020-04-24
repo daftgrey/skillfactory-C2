@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Russo+One&display=swap&subset=cyrillic" rel="stylesheet">
+    <script src="../scripts/results.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Результаты голосования</title>
+</head>
+<body>
+<div id="vote-data">
+    <fieldset>
+    	<legend>Результаты голосования:</legend>
+    	<label for="cats">Кошки: </label><br>
+	    <div class="progress" id="cats">
+	    	<div class="progress-bar" role="progressbar" style="width: 0" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">cats</div>
+	    </div><br>
+	    <label for="dogs">Собаки: </label><br>
+	    <div class="progress" id="dogs">
+	    	<div class="progress-bar" role="progressbar" style="width: 0" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">dogs</div>
+	    </div><br>
+	    <label for="parrots">Попугаи: </label><br>
+	    <div class="progress" id="parrots">
+	    	<div class="progress-bar" role="progressbar" style="width: 0" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">parrots</div>
+	    </div>
+	</fieldset>
+    <br><br>
+    <a href="../index.html">Проголосовать</a>
+</div>
+
+</body>
+</html>

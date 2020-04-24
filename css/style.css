@@ -1,0 +1,47 @@
+
+body{
+     background-color: #6d9eeb;
+}
+#vote-data {
+     background-color: white;
+     margin: 5%;
+     padding: 5%;
+     border-radius: 25px;
+     min-height: 50vh;
+}
+.form-radio
+{
+     -webkit-appearance: none;
+     -moz-appearance: none;
+     appearance: none;
+     display: inline-block;
+     position: relative;
+     background-color: #6d9eeb;
+     color: #666;
+     top: 10px;
+     height: 30px;
+     width: 30px;
+     border: 0;
+     border-radius: 50px;
+     cursor: pointer;     
+     margin-right: 7px;
+     outline: none;
+}
+.form-radio:checked::before
+{
+     position: absolute;
+     font: 13px/1 'Open Sans', sans-serif;
+     left: 11px;
+     top: 7px;
+     content: '\02143';
+     transform: rotate(40deg);
+}
+.form-radio:hover
+{
+     background-color: #0b9494;
+}
+.form-radio:checked
+{
+     background-color: #6d9eeb;
+}
+

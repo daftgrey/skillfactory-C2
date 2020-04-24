@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+	<script src="./scripts/vote.js"></script>
+	<link rel="stylesheet" href="./css/style.css">
+	<title>Голосование</title>
+</head>
+<body>
+	<div id="vote-data">
+		<fieldset>
+		<legend>Проголосуйте за петомца:</legend>
+			<input type="radio" id="cats-radio" name="vote" class="form-radio" value="cats" onclick="checkType(this)">
+			<label for="cats-radio">Кошки: </label><br>
+			<input type="radio" id="dogs-radio" name="vote" class="form-radio" value="dogs" onclick="checkType(this)">
+			<label for="dogs-radio">Собаки: </label><br>
+			<input type="radio" id="parrots-radio" name="vote" class="form-radio" value="parrots" onclick="checkType(this)">
+			<label for="parrots-radio">Попугаи: </label><br>
+		</fieldset><br><br>
+		<button id="vote-button" >Проголосовать</button>
+		<button id="again-button" style="display: none">Проголосовать снова</button>
+		<br><br><a href="./html/results.html"> Показать результаты </a>
+		<div id="message"> </div>
+	</div>
+</body>
+</html>
+
